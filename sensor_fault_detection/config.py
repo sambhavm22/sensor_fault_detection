@@ -1,0 +1,1 @@
+# define independent and dependent variable 
