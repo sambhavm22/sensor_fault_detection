@@ -24,7 +24,7 @@ class DataTransformationConfig:
     preprocessor_file_path = os.path.join("artifact/data_transformation", "preprocessor.pkl")
     
 class DataTransformation:
-    def __init__(self):
+    def __init__(self, raw_file_path):
         self.data_transformation_config = DataTransformationConfig()
     
     @staticmethod    

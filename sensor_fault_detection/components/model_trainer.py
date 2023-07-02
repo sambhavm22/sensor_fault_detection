@@ -104,7 +104,7 @@ class ModelTrainer:
         except Exception as e:
             raise CustomException(e,sys)          
     
-    def initiate_modeL_training(self):
+    def initiate_modeL_training(self, train_array, test_array):
         try:
             logging.info(f"splitting training and testing input and target feature")
             X_train, y_train, X_test, y_test = (
